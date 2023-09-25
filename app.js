@@ -8,7 +8,6 @@ const btns = document.querySelectorAll(".btn");
 btns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
     const styles = e.currentTarget.classList;
-    console.log(styles);
     // increase, decrease or reset displayed value
     if (styles.contains("decrease")) {
         count--;
